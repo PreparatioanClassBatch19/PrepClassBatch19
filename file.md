@@ -4,7 +4,9 @@
 
 Nama : Hendro Susilo
 Stack : Backend
-Hobies : Music, Travalling
+Hobbies : Basket
 
+Nama : Testing 
+Stack : FullStack
 
 ```
