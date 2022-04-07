@@ -1,9 +1,10 @@
 function ganjilDanGenap(input) {
-    if(input % 2 === 0){
-        return "Genap";
-    }else{
-        return "Ganjil";
-    }
+    // if(input % 2 === 0){
+    //     return "Genap";
+    // }else{
+    //     return "Ganjil";
+    // }
+    return input % 2 === 0 ? "Genap" : "Ganjil";
 }
 let input1 = 43;
 let input2 = 1032;
