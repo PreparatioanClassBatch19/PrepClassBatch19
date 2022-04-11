@@ -3,8 +3,12 @@ const buku = {
     jumlah : 10
 }
 function stokBuku(nama, jumlah){
-    if(jumlah !==0){
-        console.log("Buku dengan nama "+ nama + " tersedia sebanyak " + jumlah + " buku");
+    for (let index = jumlah; index >= 0; index--) {
+        if(index !==0){
+            console.log("Buku dengan nama "+ nama + " tersedia sebanyak " + index + " buku");
+        }else if(index === 0){
+            console.log("Buku " + nama + " Tidak Tersedia");
+        }   
     }
 }
 

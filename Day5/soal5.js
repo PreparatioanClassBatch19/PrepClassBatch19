@@ -6,6 +6,7 @@ const people = [
     { id: 5, name: 'Sari', age: 19 },
     { id: 6, name: 'Ririn', age: 21 },
   ]
+
   for (let index = 0; index < people.length; index++) {
       if(people[index].age < 21){
           console.log(people[index]);   
